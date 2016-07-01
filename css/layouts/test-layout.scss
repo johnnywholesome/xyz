@@ -1,0 +1,406 @@
+$large-screen: em(700);
+$medium-screen: em(380);
+$small-screen: em(200);
+
+body {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	font-size: 11px;
+
+	section {
+		@include outer-container();
+		.first-row {
+
+			.selectBox {
+				label {
+					display: block;
+				}
+
+				@include media($small-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+
+				@include media($medium-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+
+				@include media($large-screen) {
+					@include span-columns(9);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+
+					button {
+						width: auto;
+					}
+
+				}
+			}
+
+			.button {
+				label {
+					display: block;
+				}
+
+				@include media($small-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+
+					button {
+						width: 100%;
+					}
+				}
+
+				@include media($medium-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+
+					button {
+						width: 100%;
+					}
+				}
+
+				@include media($large-screen) {
+					@include span-columns(3);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+
+					button {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.second-row {
+			.child {
+
+				label {
+					display: block;
+				}
+
+				@include media($small-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+
+				@include media($medium-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+
+				@include media($large-screen) {
+					@include clearfix();
+					@include span-columns(3);
+					@incude omega(4n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.third-row {
+			.child {
+				label {
+					display: block;
+				}
+
+				@include media($small-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+
+				@include media($medium-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+
+				@include media($large-screen) {
+					@include span-columns(6);
+					@incude omega(2n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.fourth-row {
+			.child {
+				label {
+					display: block;
+				}
+
+				@include media($small-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+
+				@include media($medium-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+
+				@include media($large-screen) {
+					@include span-columns(4);
+					@incude omega(3n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.fifth-row {
+			.child {
+				label {
+					display: block;
+				}
+
+				@include media($small-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+
+				@include media($medium-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+
+				@include media($large-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.sixth-row {
+			.child {
+				label {
+					display: block;
+				}
+
+				@include media($small-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+			
+				@include media($medium-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+
+				@include media($large-screen) {
+					@include span-columns(12);
+					@incude omega(1n);
+
+					.label {
+						display: block;
+					}
+
+					input {
+						width: 100%;
+					}
+
+					select {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+	}
+
+}
